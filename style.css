@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;700&display=swap");
+
+:root {
+  font-size: 10px;
+  --dark: #181719;
+  --grey: #a9a9a9;
+  --serif: "Lora", "Times New Roman", Times, serif;
+  --non-serif: "Montserrat", Arial, sans-serif;
+  --brand: "Crimson Pro", "Times New Roman", Times, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+html,
+body {
+  background: var(--dark);
+  color: #fff;
+  font-family: var(--non-serif);
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+  min-height: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.header__brand {
+  font-family: var(--brand);
+  font-size: 1.4rem;
+  padding: 8px;
+  border: 1px solid #ffffff;
+  font-weight: 200;
+}
+
+.nav {
+  width: 40%;
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__item {
+  font-size: 1.8rem;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.nav__item:hover {
+  opacity: 0.7;
+}
+
+.main {
+  display: flex;
+  padding: 105px 0;
+  margin-bottom: 32px;
+}
+
+.main__text-content,
+.main__img-area {
+  width: 50%;
+}
+
+.main__text-content {
+  padding-right: 150px;
+}
+
+.main__headline {
+  font-size: 4.8rem;
+  font-family: var(--serif);
+  font-weight: normal;
+  margin-bottom: 41px;
+}
+
+.main__description {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+
+.main__cta {
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.main__cta:hover {
+  opacity: 0.7;
+}
+
+.main__img-area {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.main__img-area img {
+  width: 100%;
+}
+
+.main__signature {
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+  transform: translateY(85px);
+  background: var(--dark);
+  padding: 18px;
+  max-width: 410px;
+}
+
+.author {
+  display: flex;
+}
+
+.author .author-img {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 1.4rem;
+  margin-left: 26px;
+  padding-top: 12px;
+  font-weight: 500;
+}
+
+.author-position {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.description {
+  font-size: 2.4rem;
+  font-family: "Lora", "Times New Roman", Times, serif;
+  padding-right: 123px;
+  margin-top: 11px;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1440px;
+  height: 105px;
+  margin-top: -105px;
+}
+
+.footer__text {
+  text-align: center;
+  padding: 46px 0;
+  margin: auto;
+  font-size: 1.4rem;
+}
