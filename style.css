@@ -181,6 +181,9 @@ body.menu-active {
 }
 
 @media screen and (max-width: 1050px) {
+  :root {
+    font-size: 8px;
+  }
   .nav {
     width: 50%;
   }
