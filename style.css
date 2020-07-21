@@ -48,6 +48,7 @@ body.menu-active {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 50px 0;
 }
 
@@ -93,7 +94,7 @@ body.menu-active {
 }
 
 .main__text-content {
-  padding-right: 150px;
+  padding-right: 110px;
 }
 
 .main__headline {
@@ -181,6 +182,9 @@ body.menu-active {
 }
 
 @media screen and (max-width: 1050px) {
+  :root {
+    font-size: 8px;
+  }
   .nav {
     width: 50%;
   }
